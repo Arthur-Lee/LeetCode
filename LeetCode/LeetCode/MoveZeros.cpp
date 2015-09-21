@@ -94,16 +94,16 @@ public:
 };
 
 
-int main()
-{
-	double time_start = clock();
-	Solution sln;
-	vector<int> in;
-	in.push_back(0);
-
-	sln.moveZeroes(in);
-
-	cout << clock() - time_start;
-
-
-}
+//int main()
+//{
+//	double time_start = clock();
+//	Solution sln;
+//	vector<int> in;
+//	in.push_back(0);
+//
+//	sln.moveZeroes(in);
+//
+//	cout << clock() - time_start;
+//
+//
+//}

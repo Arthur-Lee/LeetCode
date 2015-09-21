@@ -77,6 +77,8 @@
     <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PopulatingNextRightPointer.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="SpiralMatrix2.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UglyNumber.cpp" />
   </ItemGroup>
