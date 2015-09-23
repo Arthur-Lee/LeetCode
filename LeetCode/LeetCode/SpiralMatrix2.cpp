@@ -4,6 +4,7 @@ using namespace std;
 
 
 class Solution {
+
 public:
 	vector<vector<int>> generateMatrix(int n) {
 		vector<vector<int>> result;
@@ -19,6 +20,7 @@ public:
 		int i = 0;
 		int j = 0;
 		int count = 1;
+
 		for (j = 0; j < n; ++j)
 		{
 			result[i][j] = count++;

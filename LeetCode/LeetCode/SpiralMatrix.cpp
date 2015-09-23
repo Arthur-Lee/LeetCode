@@ -63,17 +63,17 @@ public:
 	}
 };
 
-
-int main()
-{
-	Solution sln;
-	vector<vector<int>> test;
-	test.resize(1);
-	test[0].resize(2);
-	test[0][0] = 3;
-	test[0][1] = 2;
-
-
-	sln.spiralOrder(test);
-
-}
+//
+//int main()
+//{
+//	Solution sln;
+//	vector<vector<int>> test;
+//	test.resize(1);
+//	test[0].resize(2);
+//	test[0][0] = 3;
+//	test[0][1] = 2;
+//
+//
+//	sln.spiralOrder(test);
+//
+//}
