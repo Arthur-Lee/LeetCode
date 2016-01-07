@@ -72,5 +72,20 @@
     <ClCompile Include="JD2015%282%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="315.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLastWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="313.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="312.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="310.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
