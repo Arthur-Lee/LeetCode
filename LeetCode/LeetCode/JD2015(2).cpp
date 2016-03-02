@@ -59,7 +59,7 @@ int getBoxs(int i, int j, int nBoxs, int max)
 
 }
 
-
+//
 //int main()
 //{
 //

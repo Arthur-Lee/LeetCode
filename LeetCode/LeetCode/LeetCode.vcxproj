@@ -66,7 +66,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="360%281%29.cpp" />
+    <ClCompile Include="282.cpp" />
+    <ClCompile Include="310.cpp" />
+    <ClCompile Include="312.cpp" />
+    <ClCompile Include="313.cpp" />
+    <ClCompile Include="315.cpp" />
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="AddDigits.cpp" />
@@ -78,6 +82,7 @@
     <ClCompile Include="DuplicateEmails.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="Isomorphic.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="MoveZeros.cpp" />
     <ClCompile Include="PermutationSequence.cpp" />
     <ClCompile Include="PopulatingNextRightPointer.cpp" />
