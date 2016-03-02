@@ -21,9 +21,6 @@
     <ClCompile Include="4Sum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="282.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AddDigits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -72,5 +69,34 @@
     <ClCompile Include="JD2015%282%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="XL(2015).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DD2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="360%281%29.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UglyNumber2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wangY1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wangY2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ali2015.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

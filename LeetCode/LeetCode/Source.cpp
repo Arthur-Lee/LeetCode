@@ -63,3 +63,21 @@
 //
 //	}
 //}
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+char fun(char x, char y)
+{
+	if (x)
+		return (y);
+}
+
+//int main()
+//{
+//	int a = '0', b = '1', c = '2';
+//	printf("%c\n", fun(fun(a, b), fun(b, c)));
+//	//cout << fun(fun(a, b), fun(b, c));
+//	return 0;
+//}

@@ -60,19 +60,19 @@ int getBoxs(int i, int j, int nBoxs, int max)
 }
 
 
-int main()
-{
-
-
-	cin >> n >> m >> k;
-	for (int i = 0; i < n; ++i)
-		for (int j = 0; j < m; ++j)
-		{
-			cin >> boxs[i][j];
-		}
-
-	int out2 = getBoxs(0, 0, 1, boxs[0][0]);
-	int out1 = getBoxs(0, 0, 0, -1);
-	cout << out1 + out2;
-	return 0;
-}
+//int main()
+//{
+//
+//
+//	cin >> n >> m >> k;
+//	for (int i = 0; i < n; ++i)
+//		for (int j = 0; j < m; ++j)
+//		{
+//			cin >> boxs[i][j];
+//		}
+//
+//	int out2 = getBoxs(0, 0, 1, boxs[0][0]);
+//	int out1 = getBoxs(0, 0, 0, -1);
+//	cout << out1 + out2;
+//	return 0;
+//}

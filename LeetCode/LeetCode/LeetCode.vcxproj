@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -18,13 +18,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -44,9 +44,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/force %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -64,12 +66,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="282.cpp" />
+    <ClCompile Include="360%281%29.cpp" />
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="AddDigits.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="Ali2015.cpp" />
     <ClCompile Include="CountPrime.cpp" />
+    <ClCompile Include="DD.cpp" />
+    <ClCompile Include="DD2.cpp" />
     <ClCompile Include="DuplicateEmails.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="Isomorphic.cpp" />
@@ -83,6 +88,13 @@
     <ClCompile Include="JD2015%282%29.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UglyNumber.cpp" />
+    <ClCompile Include="UglyNumber2.cpp" />
+    <ClCompile Include="wangY1.cpp" />
+    <ClCompile Include="wangY2.cpp" />
+    <ClCompile Include="XL(2015).cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
